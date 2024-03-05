@@ -5,9 +5,9 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/tasbeeh.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/tasbeeh.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zeeshan.junaid.counterapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/tasbeeh.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9c7089fa-08da-46e6-81b9-327d3d4da77d"
+      }
     }
   }
 }
